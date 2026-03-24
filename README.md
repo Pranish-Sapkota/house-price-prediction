@@ -202,7 +202,7 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-Your Name
+Pranish Sapkota
 Aspiring Data Scientist / AI Engineer
 
 ---
