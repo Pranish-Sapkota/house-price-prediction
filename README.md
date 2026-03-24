@@ -202,8 +202,8 @@ pip install -r requirements.txt
 
 ## 👨‍💻 Author
 
-* Pranish Sapkota
-  Aspiring Data Scientist / AI Engineer
+Pranish Sapkota <br>
+Aspiring Data Scientist / AI Engineer
 
 ---
 
