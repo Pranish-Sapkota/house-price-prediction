@@ -20,7 +20,7 @@ def load_artifacts():
     model = joblib.load("../models/model.pkl")
     scaler = joblib.load("../models/scaler.pkl")
     columns = joblib.load("../models/columns.pkl")
-    num_cols = joblib.load("../models/num_cols.pkl")  # 🔥 important
+    num_cols = joblib.load("../models/num_cols.pkl")
     return model, scaler, columns, num_cols
 
 

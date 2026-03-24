@@ -26,19 +26,19 @@ house-price-prediction/
 │
 ├── data/
 │   ├── raw/
-│   ├── processed/
+│   │   ├── train.csv
+│   │   └── test.csv
+│   │
+│   └── processed/
+│       ├── train_clean.csv
+│       ├── X.csv
+│       └── y.csv
 │
 ├── notebooks/
 │   ├── eda.ipynb
 │   ├── data_preprocessing.ipynb
 │   ├── feature_engineering.ipynb
 │   └── train.ipynb
-│
-├── src/
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── train.py
-│   └── predict.py
 │
 ├── models/
 │   ├── model.pkl
@@ -51,10 +51,10 @@ house-price-prediction/
 │
 ├── reports/
 │   └── figures/
+|   └── screenshots/
 │
 ├── requirements.txt
-├── README.md
-└── main.py
+└── README.md
 ```
 
 ---
@@ -175,6 +175,18 @@ cd house-price-prediction
 
 pip install -r requirements.txt
 ```
+---
+
+## 📸 Project Demo
+
+### 🏠 App Interface
+![Home](reports/screenshots/home.png)
+
+### 🔍 Prediction Example
+![Prediction](reports/screenshots/prediction.png)
+
+### 🎥 Live Demo
+![Demo](reports/screenshots/demo.gif)
 
 ---
 
